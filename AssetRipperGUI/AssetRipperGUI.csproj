@@ -1,0 +1,57 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net6.0</TargetFramework>
+		<DisableImplicitNamespaceImports>true</DisableImplicitNamespaceImports>
+		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+		<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+		<Nullable>enable</Nullable>
+		<OutputPath>..\Bins\AssetRipperGUI\$(Configuration)\</OutputPath>
+		<IntermediateOutputPath>..\Bins\obj\AssetRipperGUI\$(Configuration)\</IntermediateOutputPath>
+		<AssemblyName>AssetRipper</AssemblyName>
+		<RootNamespace>AssetRipper.GUI</RootNamespace>
+		<Copyright>Copyright © 2022</Copyright>
+		<Authors>ds5678</Authors>
+		<DebugType>embedded</DebugType>
+		<DebugSymbols>true</DebugSymbols>
+		<Platforms>AnyCPU;AnyCPU</Platforms>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<ApplicationIcon>Resources\GUI_Icon.ico</ApplicationIcon>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<AvaloniaResource Include="Resources\**" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Reference Include="AssetRipper.SourceGenerated">
+			<SpecificVersion>False</SpecificVersion>
+			<HintPath>../Libraries/AssetRipper.SourceGenerated.dll</HintPath>
+		</Reference>
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Avalonia" Version="0.10.16" />
+		<PackageReference Include="Avalonia.Desktop" Version="0.10.16" />
+		<PackageReference Include="Avalonia.Diagnostics" Version="0.10.16" />
+		<PackageReference Include="LibVLCSharp" Version="3.6.6" />
+		<PackageReference Include="LibVLCSharp.Avalonia" Version="3.6.6" />
+		<PackageReference Include="MessageBox.Avalonia" Version="2.0.1" />
+		<PackageReference Include="System.IO.FileSystem" Version="4.3.0" />
+		<PackageReference Include="System.IO.FileSystem.AccessControl" Version="5.0.0" />
+		<PackageReference Include="System.Security.AccessControl" Version="6.0.0" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="VideoLAN.LibVLC.Windows" Version="3.0.17.4" />
+		<PackageReference Include="VideoLAN.LibVLC.Mac" Version="3.1.3.1" />
+	</ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\AssetRipperLibrary\AssetRipperLibrary.csproj" />
+	</ItemGroup>
+	<ItemGroup>
+		<None Remove="..\Localizations\*.json" />
+		<EmbeddedResource Include="..\Localizations\*.json" />
+	</ItemGroup>
+</Project>
