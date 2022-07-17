@@ -1,0 +1,197 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31815.197
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AssetRipperConsole", "AssetRipperConsole\AssetRipperConsole.csproj", "{C9583270-6D3E-4CBF-8011-A818A7D8F3DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{825F97E7-5A2D-4D93-81AD-292F54FE2AC7}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		LICENSE.md = LICENSE.md
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Licenses", "Licenses", "{56F5A3D3-3388-476F-9852-D531BE14A9F8}"
+	ProjectSection(SolutionItems) = preProject
+		Licenses\AsmResolver.md = Licenses\AsmResolver.md
+		Licenses\AssetStudio.md = Licenses\AssetStudio.md
+		Licenses\Avalonia.md = Licenses\Avalonia.md
+		Licenses\CommandLineParser.md = Licenses\CommandLineParser.md
+		Licenses\Cpp2IL.md = Licenses\Cpp2IL.md
+		Licenses\Crunch.md = Licenses\Crunch.md
+		Licenses\Fmod5Sharp.md = Licenses\Fmod5Sharp.md
+		Licenses\ILSpy.md = Licenses\ILSpy.md
+		Licenses\ImageSharp.md = Licenses\ImageSharp.md
+		Licenses\LibVLCSharp.md = Licenses\LibVLCSharp.md
+		Licenses\Lz4.md = Licenses\Lz4.md
+		Licenses\MeshSharp.md = Licenses\MeshSharp.md
+		Licenses\MessageBoxAvalonia.md = Licenses\MessageBoxAvalonia.md
+		Licenses\MonoCecil.md = Licenses\MonoCecil.md
+		Licenses\NAudio.md = Licenses\NAudio.md
+		Licenses\NAudioLame.md = Licenses\NAudioLame.md
+		Licenses\NAudioVorbis.md = Licenses\NAudioVorbis.md
+		Licenses\NVorbis.md = Licenses\NVorbis.md
+		Licenses\SharpCompress.md = Licenses\SharpCompress.md
+		Licenses\SharpGLTF.md = Licenses\SharpGLTF.md
+		Licenses\SharpZipLib.md = Licenses\SharpZipLib.md
+		Licenses\texgenpack.md = Licenses\texgenpack.md
+		Licenses\uTinyRipper.md = Licenses\uTinyRipper.md
+		Licenses\uTinyRipperExporter.md = Licenses\uTinyRipperExporter.md
+		Licenses\Xiph.md = Licenses\Xiph.md
+		Licenses\YamlDotNet.md = Licenses\YamlDotNet.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AssetRipperLibrary", "AssetRipperLibrary\AssetRipperLibrary.csproj", "{36C3C081-547B-4C0C-98D0-BB90BA07B976}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AssetRipper.SystemTester", "AssetRipper.SystemTester\AssetRipper.SystemTester.csproj", "{7B061A55-5B4A-4A22-B0A6-A4BF2093BF42}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IssueTemplates", "IssueTemplates", "{38C0DDA2-6C7D-41F1-90F6-0B1DDA86C0EC}"
+	ProjectSection(SolutionItems) = preProject
+		.github\ISSUE_TEMPLATE\bug_report.yaml = .github\ISSUE_TEMPLATE\bug_report.yaml
+		.github\ISSUE_TEMPLATE\config.yaml = .github\ISSUE_TEMPLATE\config.yaml
+		.github\ISSUE_TEMPLATE\enhancement.yaml = .github\ISSUE_TEMPLATE\enhancement.yaml
+		.github\ISSUE_TEMPLATE\other.yaml = .github\ISSUE_TEMPLATE\other.yaml
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AssetRipper.FileAnalyzer", "AssetRipper.FileAnalyzer\AssetRipper.FileAnalyzer.csproj", "{80284066-08A7-496A-A9EB-732966584CE8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Workflows", "Workflows", "{88179FFC-0863-4C4F-9860-68EB1471E59F}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\auxiliary.yml = .github\workflows\auxiliary.yml
+		.github\workflows\codeql.yml = .github\workflows\codeql.yml
+		.github\workflows\docfx_build.yml = .github\workflows\docfx_build.yml
+		.github\workflows\greetings.yml = .github\workflows\greetings.yml
+		.github\workflows\publish.yml = .github\workflows\publish.yml
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AssetRipperGUI", "AssetRipperGUI\AssetRipperGUI.csproj", "{8CDB3DC9-77D2-4295-BB04-CEA24CA59B93}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{E3A52FDC-1C4D-430F-A1BA-BFC5671181D4}"
+	ProjectSection(SolutionItems) = preProject
+		docs\articles\CommonIssues.md = docs\articles\CommonIssues.md
+		CONTRIBUTING.md = CONTRIBUTING.md
+		docs\articles\Credits.md = docs\articles\Credits.md
+		docs\docfx.json = docs\docfx.json
+		docs\articles\Downloads.md = docs\articles\Downloads.md
+		docs\index.md = docs\index.md
+		docs\articles\Requirements.md = docs\articles\Requirements.md
+		docs\articles\RoadMap.md = docs\articles\RoadMap.md
+		docs\articles\RunningOnMac.md = docs\articles\RunningOnMac.md
+		docs\articles\toc.yml = docs\articles\toc.yml
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AssetRipper.Tests", "AssetRipper.Tests\AssetRipper.Tests.csproj", "{365C791E-431B-40E5-B724-BE375126AA11}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ShellScripts", "ShellScripts", "{06FFA747-F995-4696-A09E-7559161EBA42}"
+	ProjectSection(SolutionItems) = preProject
+		generate_all.sh = generate_all.sh
+		get_names.sh = get_names.sh
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShaderTextRestorer", "ShaderTextRestorer\ShaderTextRestorer.csproj", "{38B51E0B-9F05-4BFA-B6B4-49DEAAA876A3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Smolv", "Smolv\Smolv.csproj", "{8985E7C1-DFCB-45B2-8369-130A1C45C6D3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpirV", "SpirV\SpirV.csproj", "{2135442C-E861-486D-A07B-0367A09177F9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AssetRipper.Fundamentals", "AssetRipper.Fundamentals\AssetRipper.Fundamentals.csproj", "{AC2D1259-7BFF-4960-A9B9-A5B4D4CD4F04}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AssetRipper.Yaml", "AssetRipper.Yaml\AssetRipper.Yaml.csproj", "{E3458355-E654-41B9-A06C-9E2A00EA9CE2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AssetRipper.SerializationLogic", "AssetRipper.SerializationLogic\AssetRipper.SerializationLogic.csproj", "{0077BA34-CA1E-4A08-8B3A-49B8EA57EA40}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AssetRipper.Yaml.Tests", "AssetRipper.Yaml.Tests\AssetRipper.Yaml.Tests.csproj", "{838B66B6-B54D-4BEE-B7E3-888E8FDE7CAE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AssetRipper.IO.Endian", "AssetRipper.IO.Endian\AssetRipper.IO.Endian.csproj", "{82436B39-9077-407B-9FE6-51E1BEADB855}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AssetRipper.IO.Files", "AssetRipper.IO.Files\AssetRipper.IO.Files.csproj", "{95684DEF-EFC1-4649-AD9E-4660DA7A584A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AssetRipper.Core", "AssetRipper.Core\AssetRipper.Core.csproj", "{AA893E5C-2431-4070-AF6A-EE638C3249D7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C9583270-6D3E-4CBF-8011-A818A7D8F3DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9583270-6D3E-4CBF-8011-A818A7D8F3DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9583270-6D3E-4CBF-8011-A818A7D8F3DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9583270-6D3E-4CBF-8011-A818A7D8F3DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36C3C081-547B-4C0C-98D0-BB90BA07B976}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36C3C081-547B-4C0C-98D0-BB90BA07B976}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36C3C081-547B-4C0C-98D0-BB90BA07B976}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36C3C081-547B-4C0C-98D0-BB90BA07B976}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B061A55-5B4A-4A22-B0A6-A4BF2093BF42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B061A55-5B4A-4A22-B0A6-A4BF2093BF42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B061A55-5B4A-4A22-B0A6-A4BF2093BF42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B061A55-5B4A-4A22-B0A6-A4BF2093BF42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80284066-08A7-496A-A9EB-732966584CE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80284066-08A7-496A-A9EB-732966584CE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80284066-08A7-496A-A9EB-732966584CE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80284066-08A7-496A-A9EB-732966584CE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CDB3DC9-77D2-4295-BB04-CEA24CA59B93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CDB3DC9-77D2-4295-BB04-CEA24CA59B93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CDB3DC9-77D2-4295-BB04-CEA24CA59B93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CDB3DC9-77D2-4295-BB04-CEA24CA59B93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{365C791E-431B-40E5-B724-BE375126AA11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{365C791E-431B-40E5-B724-BE375126AA11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{365C791E-431B-40E5-B724-BE375126AA11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{365C791E-431B-40E5-B724-BE375126AA11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38B51E0B-9F05-4BFA-B6B4-49DEAAA876A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38B51E0B-9F05-4BFA-B6B4-49DEAAA876A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38B51E0B-9F05-4BFA-B6B4-49DEAAA876A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38B51E0B-9F05-4BFA-B6B4-49DEAAA876A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8985E7C1-DFCB-45B2-8369-130A1C45C6D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8985E7C1-DFCB-45B2-8369-130A1C45C6D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8985E7C1-DFCB-45B2-8369-130A1C45C6D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8985E7C1-DFCB-45B2-8369-130A1C45C6D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2135442C-E861-486D-A07B-0367A09177F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2135442C-E861-486D-A07B-0367A09177F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2135442C-E861-486D-A07B-0367A09177F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2135442C-E861-486D-A07B-0367A09177F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC2D1259-7BFF-4960-A9B9-A5B4D4CD4F04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC2D1259-7BFF-4960-A9B9-A5B4D4CD4F04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC2D1259-7BFF-4960-A9B9-A5B4D4CD4F04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC2D1259-7BFF-4960-A9B9-A5B4D4CD4F04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3458355-E654-41B9-A06C-9E2A00EA9CE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3458355-E654-41B9-A06C-9E2A00EA9CE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3458355-E654-41B9-A06C-9E2A00EA9CE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3458355-E654-41B9-A06C-9E2A00EA9CE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0077BA34-CA1E-4A08-8B3A-49B8EA57EA40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0077BA34-CA1E-4A08-8B3A-49B8EA57EA40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0077BA34-CA1E-4A08-8B3A-49B8EA57EA40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0077BA34-CA1E-4A08-8B3A-49B8EA57EA40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{838B66B6-B54D-4BEE-B7E3-888E8FDE7CAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{838B66B6-B54D-4BEE-B7E3-888E8FDE7CAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{838B66B6-B54D-4BEE-B7E3-888E8FDE7CAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{838B66B6-B54D-4BEE-B7E3-888E8FDE7CAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82436B39-9077-407B-9FE6-51E1BEADB855}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82436B39-9077-407B-9FE6-51E1BEADB855}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82436B39-9077-407B-9FE6-51E1BEADB855}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82436B39-9077-407B-9FE6-51E1BEADB855}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95684DEF-EFC1-4649-AD9E-4660DA7A584A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95684DEF-EFC1-4649-AD9E-4660DA7A584A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95684DEF-EFC1-4649-AD9E-4660DA7A584A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95684DEF-EFC1-4649-AD9E-4660DA7A584A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA893E5C-2431-4070-AF6A-EE638C3249D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA893E5C-2431-4070-AF6A-EE638C3249D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA893E5C-2431-4070-AF6A-EE638C3249D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA893E5C-2431-4070-AF6A-EE638C3249D7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{56F5A3D3-3388-476F-9852-D531BE14A9F8} = {825F97E7-5A2D-4D93-81AD-292F54FE2AC7}
+		{38C0DDA2-6C7D-41F1-90F6-0B1DDA86C0EC} = {825F97E7-5A2D-4D93-81AD-292F54FE2AC7}
+		{88179FFC-0863-4C4F-9860-68EB1471E59F} = {825F97E7-5A2D-4D93-81AD-292F54FE2AC7}
+		{E3A52FDC-1C4D-430F-A1BA-BFC5671181D4} = {825F97E7-5A2D-4D93-81AD-292F54FE2AC7}
+		{06FFA747-F995-4696-A09E-7559161EBA42} = {825F97E7-5A2D-4D93-81AD-292F54FE2AC7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ED4FF66B-4A6D-4440-8721-23C5ED09791C}
+	EndGlobalSection
+EndGlobal
